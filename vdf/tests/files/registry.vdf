@@ -1,0 +1,34 @@
+"Registry"
+{
+	"HKCU"
+	{
+		"Software"
+		{
+			"Valve"
+			{
+				"Steam"
+				{
+					"empty"
+					{
+					}
+					"steamglobal"
+					{
+						"language"		"english"
+					}
+					"escape_test"
+					{
+						"double\"quote"		"ab\"cd"
+						"tab\tulator"		"ab\tcd"
+						"new\nline"		"ab\ncd"
+						"back\\slash"		"ab\\cd"
+					}
+					"conditionals"
+					{
+						"win32"		"value"		[$WIN32]
+						"x360"		"value"		[$X360]
+					}
+				}
+			}
+		}
+	}
+}
